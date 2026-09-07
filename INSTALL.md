@@ -9,7 +9,7 @@ git clone https://github.com/therahulchaurasia/Ads-Skill.git ~/.claude/skills/ad
 Windows PowerShell:
 
 ```powershell
-git clone https://github.com/therahulchaurasia/Ads-Skill.git "$env:USERPROFILE\.claude\skillsd-studio"
+git clone https://github.com/therahulchaurasia/Ads-Skill.git "$env:USERPROFILE/.claude/skills/ad-studio"
 ```
 
 Restart Claude Code. Type `/` and `ad-studio` should be in the list.
