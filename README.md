@@ -48,13 +48,19 @@ Restart Claude Code. Other surfaces and troubleshooting in [INSTALL.md](INSTALL.
 
 ## Use it
 
-Put a screenshot of an ad you like somewhere you can point at, then:
+Put a screenshot of an ad you like in your working folder. Two ways to start:
+
+```
+/ad-studio
+```
+
+or just say what you want, and it triggers on its own:
 
 ```
 I want to make an ad like this for my brand
 ```
 
-Drag the screenshot in. Answer its questions - one at a time, plain language, no jargon. It writes everything to `.ad-studio/` in your working folder:
+Drag the screenshot in either way. Answer its questions - one at a time, plain language, no jargon. It writes everything to `.ad-studio/` in your working folder:
 
 ```
 .ad-studio/
