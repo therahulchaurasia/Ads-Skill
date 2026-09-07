@@ -10,13 +10,13 @@ Works with any image generator. If none is connected, you get a ready-to-paste p
 
 ## What it actually does
 
-```
-1  Brand   who this is for               asked once, remembered
-2  Read    what the reference is doing   format, read order, zones, detail
-3  Plan    your version, confirmed       nothing generates before you say yes
-4  Make    copy, then prompt, then image
-5  Check   size, policy, brand           pass/fix list, then the next variant
-```
+| | Stage | What happens |
+|---|---|---|
+| 1 | **Brand** | Who this is for. Asked once, then remembered. |
+| 2 | **Read** | What the reference is doing: format, read order, zones, detail. |
+| 3 | **Plan** | Your version, confirmed by you. Nothing generates before you say yes. |
+| 4 | **Make** | Copy first, then the prompt, then the image. |
+| 5 | **Check** | Size, policy, brand. A pass/fix list, then the next variant. |
 
 The rule underneath all of it: **take the structure, leave the identity.**
 
