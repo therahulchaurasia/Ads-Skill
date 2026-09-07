@@ -2,7 +2,7 @@
 
 Run after any meaningful edit to the skill. Each case is a fresh session, a real reference ad, and one thing being checked.
 
-These are the behaviours that were broken at some point and got fixed. If one regresses, it will regress silently — the ad will still come out, it will just be worse in a way that is easy to miss.
+These are the behaviours that were broken at some point and got fixed. If one regresses, it will regress silently - the ad will still come out, it will just be worse in a way that is easy to miss.
 
 **Stop each case at Stage 3 unless the case says otherwise.** No generation needed to check most of this, and it costs nothing.
 
@@ -12,7 +12,7 @@ Not in `references/` deliberately: this file names brands and carries example co
 
 ## 1. Detail layer
 
-**Setup.** A reference whose callouts attach to the product with a visible device — notched pills, curved arrows, leader lines. Supplement and skincare ads are full of these.
+**Setup.** A reference whose callouts attach to the product with a visible device - notched pills, curved arrows, leader lines. Supplement and skincare ads are full of these.
 
 **Ask.** "Make an ad like this for my brand."
 
@@ -34,7 +34,7 @@ Not in `references/` deliberately: this file names brands and carries example co
 
 ## 3. Awareness mismatch
 
-**Setup.** An offer-led reference — "25% OFF, ENDS TONIGHT". Tell it the goal is cold acquisition.
+**Setup.** An offer-led reference - "25% OFF, ENDS TONIGHT". Tell it the goal is cold acquisition.
 
 **Pass.** It says the layout is usable but the offer angle is not, and leads with a problem instead.
 
@@ -42,11 +42,11 @@ Not in `references/` deliberately: this file names brands and carries example co
 
 ---
 
-## 4. Policy calibration — both directions
+## 4. Policy calibration - both directions
 
 **Setup A.** Copy along the lines of "Tired at 3pm?" or "Coffee making you jittery?"
 **Pass A.** Left alone. Ordinary experience, not a personal attribute. Live ads run this constantly.
-**Fail A.** Flagged and rewritten into something limp. Over-flagging is the failure mode here — a skill that cries wolf twice gets ignored.
+**Fail A.** Flagged and rewritten into something limp. Over-flagging is the failure mode here - a skill that cries wolf twice gets ignored.
 
 **Setup B.** Copy along the lines of "Struggling with your weight?" or "Behind on payments?"
 **Pass B.** Flagged, with a describing-not-asserting rewrite offered.
@@ -70,7 +70,7 @@ Both halves must pass. Either one alone means the rule is miscalibrated rather t
 
 **Setup.** Two or three photos of a real product. Run this one through generation.
 
-**Pass.** The output product matches the photos — label, proportions, colours.
+**Pass.** The output product matches the photos - label, proportions, colours.
 
 **Fail.** A plausible generic version of the product. Means the photos were not passed as images 2+.
 
@@ -84,8 +84,8 @@ Both halves must pass. Either one alone means the rule is miscalibrated rather t
 
 Then ask for a second version:
 
-- **different hook or offer** → appends to `variations` in the same file, `what_changed` filled in
-- **different angle or format** → new file, `derived_from` pointing back
+- **different hook or offer** -> appends to `variations` in the same file, `what_changed` filled in
+- **different angle or format** -> new file, `derived_from` pointing back
 
 **Fail.** Re-interviews you about brand or layout. Everything it needs is in the spec it already wrote.
 
